@@ -7,12 +7,12 @@ pragma solidity ^0.8.10; // Versão do Solidity, é a versão que vai compilar e
 contract GuardaLoteria {
     uint numeroSorteado; // Declaramos que esse número sorteado será inteiro sem sinal (uint)
 
-    // Função para interagir com o contrato
+    // Função para interagir com o contrato - Ela irá armazenar um valor que o usuário digitará no Remix
     function set(uint enviado) public {
         numeroSorteado = enviado;
     }
 
-    // Função para interagir com o contrato
+    // Função para interagir com o contrato - Ela irá ''pegar'' o valor armazenado pelo usuário no Remix
     function get() public view returns (uint) {
         return numeroSorteado;
     }
