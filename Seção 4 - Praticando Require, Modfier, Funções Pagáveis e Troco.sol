@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.10; // Versão do programa na linguagem Solidity
 
 contract GuardaLoteria  {
@@ -19,7 +20,7 @@ contract GuardaLoteria  {
       donoRico = true;
     }
     else {
-      donoRico = false
+      donoRico = false;
     }
     
 }
@@ -36,7 +37,7 @@ contract GuardaLoteria  {
       msg.sender.transfer(troco);
       emit TrocoEnviado(msg.sender, troco); 
     }
-    
+}    
     
     modifier comCustoMinimo(uint min) {
       require(msg.value >= min, "Não foi enviado Etjer suficiente.");
