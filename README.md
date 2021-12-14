@@ -1,6 +1,6 @@
 <!-- Colocar uma logo no projeto -->
 <!-- HTML -->
-<h1 align="center">
+<h1>
     <img src="https://ik.imagekit.io/elankfmjpxmn/github.compecraveiro_701AFfJMq.gif?updatedAt=1639442504160"> <!-- URL da imagen -->
 </h1>
 
