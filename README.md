@@ -1,7 +1,7 @@
 <!-- Colocar uma logo no projeto -->
 <!-- HTML -->
-<h1>
-    <img src="https://ik.imagekit.io/elankfmjpxmn/github.compecraveiro_701AFfJMq.gif?updatedAt=1639442504160"> <!-- URL da imagen -->
+<h1 align="center">
+    <img src="https://ik.imagekit.io/elankfmjpxmn/rotating-ethereum-logo_AsHY1q01V.gif?updatedAt=1638517951483"> <!-- URL da imagen -->
 </h1>
 
 ## 💡 Índice
