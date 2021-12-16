@@ -5,9 +5,8 @@ pragma solidity ^0.4.0;
 contract GuardaLoteria {
 	uint16 numeroSorteado;
 	uint numeroSorteadoGrande;
-	uint contadorDeSorteios;
+	uint16 contadorDeSorteios;
 	address dono;
-
 
 	constructor(uint16 numeroInicial) public {
 	numeroSorteado = numeroInicial;
