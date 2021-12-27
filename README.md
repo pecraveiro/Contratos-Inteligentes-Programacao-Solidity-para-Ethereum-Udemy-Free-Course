@@ -22,4 +22,4 @@ O projeto **Contratos Inteligentes: Programação Solidity para Ethereum** é um
 
 - [Udemy](https://www.udemy.com/course/contratos-inteligentes/)
 
-<p align="center">Desenvolvido por <a href ="https://www.linkedin.com/in/pecraveiro/">Pedro Craveiro</a> 🌐</p>
+<p align="center">Desenvolvido por <a href ="https://www.linkedin.com/in/pecraveiro/">Pedro Craveiro</a> 🌐💻</p>
