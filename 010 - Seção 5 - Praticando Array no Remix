@@ -28,7 +28,7 @@ numerosSorteados.push(enviado); // Push - coloque no final da lista
 	}
 }
 	modifier comCustoMinimo(uint min) {
-	require(msg.value >= min, "Não foi enviado Ether suficiente"
+	require(msg.value >= min, "Não foi enviado Ether suficiente.");
 	_;
 }
 
