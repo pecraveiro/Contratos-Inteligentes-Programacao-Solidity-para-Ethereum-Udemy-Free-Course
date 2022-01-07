@@ -1,5 +1,7 @@
 <div align="center">
+  
 ![github compecraveiro](https://user-images.githubusercontent.com/79882049/148589377-e50cfc0d-6f8d-4bc7-b8f0-ac6763d76183.gif)
+  
 </div>
 
 ## 💡 Índice
