@@ -29,15 +29,15 @@ contract GuardaLoteria {
 
 function get() public view returns (
 	address _donoDoContrato,
-	uint _sandoEmWei,
 	uint _ultimoSorteado,
+	uint _ultimaData,
 	address _ultimoRemetente
 ) {
 	Sorteio memory ultimo = sorteios[sorteios.length-1];
 	return (
 		dono,
-		address(this).balance,
 		ultimo.numeroSorteado,
+		ultimo.data,
 		ultimo.remetente
 		);
 }
