@@ -116,7 +116,7 @@ contract Loteria {
 
   function kill () public apenasDono() {    
     dono.transfer(address(this).balance);
-    selfdestruct(dono);
+    selfdestruct(dono); // O self destruct transfere o saldo para o dono do contrato nesse caso
   }
   
 }
