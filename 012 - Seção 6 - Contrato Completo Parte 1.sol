@@ -98,9 +98,9 @@ contract Loteria {
     uint premioTotal = address(this).balance;
 
     if (ganhadores.length > 0) {
-        uint premio      = premioTotal / ganhadores.length;
+        uint premio = premioTotal / ganhadores.length;
     
-        // envia os premios
+        // Envia os prêmios
         for (p = 0; p < ganhadores.length; p++) {
           ganhadores[p].transfer(premio);
         }
